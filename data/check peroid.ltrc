@@ -1,0 +1,182 @@
+;$FILEVERSION=1.1
+;$STARTTIME=45565.849832581
+;
+;   C:\Users\LISA\AppData\Local\Temp\PLIN-ViewPro\Traces\2024-09-30 20-23-45Z\Untitled.ltrc
+;
+;   Start time: 2024-09-30 20:23:45.535
+;   
+;   Direction description:
+;   ~~~~~~~~~~~~~~~~~~
+;     Pub   = Publisher Frame
+;     Sub   = Subscriber Frame
+;     SubAL = Subscriber Auto Length Frame
+;   
+;   Checksum Type description:
+;   ~~~~~~~~~~~~~~~~~~
+;     CL = Classic
+;     EH = Enhanced
+;     AU = Auto
+;   
+;   Error Code description:
+;   ~~~~~~~~~~~~~~~~~~
+;     CK = Checksum Error
+;     GS = GroundShort Error
+;     P0 = IdParityBit0 Error
+;     P1 = IdParityBit1 Error
+;     IS = InconsistentSynch Error
+;     SR = SlaveNOtResponding Error
+;     SD = SlotDelay Error
+;     TO = Timeout Error
+;     VS = VBatShort Error
+;   
+;   Columns decription:
+;   ~~~~~~~~~~~~~~~~~~~~
+;   +Frame Number
+;   |           +Timestamp (microseconds)
+;   |           |           +Direction
+;   |           |           |    +Frame-ID (hex)
+;   |           |           |    |   +Frame Length
+;   |           |           |    |   |   +Data bytes (hex)
+;   |           |           |    |   |   |                       +Checksum (hex)
+;   |           |           |    |   |   |                       |   +Checksum Type
+;   |           |           |    |   |   |                       |   |    +Error Code
+;   |           |           |    |   |   |                       |   |    |
+;---+--   ------+-------  --+--  +-  +  -+ -- -- -- -- -- -- --  +-  +-  -+-----------
+     1)            17151  SubAL  03  2  00 FF                    FC  EH 
+     2)            27144  SubAL  08  5  07 03 01 02 07           E3  EH 
+     3)            87144  SubAL  00  2  00 FF                    7F  EH 
+     4)            97152  SubAL  01  2  00 FF                    3E  EH 
+     5)           107145  SubAL  02  2  00 FF                    BD  EH 
+     6)           116923  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+     7)           176927  SubAL  01  2  00 FF                    3E  EH 
+     8)           186916  SubAL  02  2  00 FF                    BD  EH 
+     9)           196924  SubAL  03  2  00 FF                    FC  EH 
+    10)           206918  SubAL  08  5  01 03 01 01 01           F0  EH 
+    11)           266917  SubAL  00  2  07 FF                    78  EH 
+    12)           276929  SubAL  08  5  08 03 01 08 08           DB  EH 
+    13)           336927  SubAL  03  2  00 FF                    FC  EH 
+    14)           346923  SubAL  08  5  07 03 01 02 07           E3  EH 
+    15)           406919  SubAL  00  2  00 FF                    7F  EH 
+    16)           416927  SubAL  01  2  00 FF                    3E  EH 
+    17)           426920  SubAL  02  2  00 FF                    BD  EH 
+    18)           436928  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    19)           496928  SubAL  01  2  00 FF                    3E  EH 
+    20)           506922  SubAL  02  2  00 FF                    BD  EH 
+    21)           516930  SubAL  03  2  00 FF                    FC  EH 
+    22)           526923  SubAL  08  5  01 03 01 01 01           F0  EH 
+    23)           586922  SubAL  00  2  07 FF                    78  EH 
+    24)           596931  SubAL  08  5  08 03 01 08 08           DB  EH 
+    25)           656932  SubAL  03  2  00 FF                    FC  EH 
+    26)           666925  SubAL  08  5  07 03 01 02 07           E3  EH 
+    27)           726932  SubAL  00  2  00 FF                    7F  EH 
+    28)           736932  SubAL  01  2  00 FF                    3E  EH 
+    29)           746930  SubAL  02  2  00 FF                    BD  EH 
+    30)           756934  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    31)           816934  SubAL  01  2  00 FF                    3E  EH 
+    32)           826927  SubAL  02  2  00 FF                    BD  EH 
+    33)           836935  SubAL  03  2  00 FF                    FC  EH 
+    34)           846932  SubAL  08  5  01 03 01 01 01           F0  EH 
+    35)           906928  SubAL  00  2  07 FF                    78  EH 
+    36)           916936  SubAL  08  5  08 03 01 08 08           DB  EH 
+    37)           976941  SubAL  03  2  00 FF                    FC  EH 
+    38)           986930  SubAL  08  5  07 03 01 02 07           E3  EH 
+    39)          1046934  SubAL  00  2  00 FF                    7F  EH 
+    40)          1056938  SubAL  01  2  00 FF                    3E  EH 
+    41)          1066931  SubAL  02  2  00 FF                    BD  EH 
+    42)          1076943  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    43)          1137268  SubAL  01  2  00 FF                    3E  EH 
+    44)          1147265  SubAL  02  2  00 FF                    BD  EH 
+    45)          1157270  SubAL  03  2  00 FF                    FC  EH 
+    46)          1167263  SubAL  08  5  01 03 01 01 01           F0  EH 
+    47)          1227262  SubAL  00  2  07 FF                    78  EH 
+    48)          1237271  SubAL  08  5  08 03 01 08 08           DB  EH 
+    49)          1297272  SubAL  03  2  00 FF                    FC  EH 
+    50)          1307265  SubAL  08  5  07 03 01 02 07           E3  EH 
+    51)          1367264  SubAL  00  2  00 FF                    7F  EH 
+    52)          1377276  SubAL  01  2  00 FF                    3E  EH 
+    53)          1387266  SubAL  02  2  00 FF                    BD  EH 
+    54)          1397274  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    55)          1457274  SubAL  01  2  00 FF                    3E  EH 
+    56)          1467267  SubAL  02  2  00 FF                    BD  EH 
+    57)          1477279  SubAL  03  2  00 FF                    FC  EH 
+    58)          1487268  SubAL  08  5  01 03 01 01 01           F0  EH 
+    59)          1547271  SubAL  00  2  07 FF                    78  EH 
+    60)          1557276  SubAL  08  5  08 03 01 08 08           DB  EH 
+    61)          1617278  SubAL  03  2  00 FF                    FC  EH 
+    62)          1627270  SubAL  08  5  07 03 01 02 07           E3  EH 
+    63)          1687270  SubAL  00  2  00 FF                    7F  EH 
+    64)          1697278  SubAL  01  2  00 FF                    3E  EH 
+    65)          1707271  SubAL  02  2  00 FF                    BD  EH 
+    66)          1717279  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    67)          1777283  SubAL  01  2  00 FF                    3E  EH 
+    68)          1787273  SubAL  02  2  00 FF                    BD  EH 
+    69)          1797281  SubAL  03  2  00 FF                    FC  EH 
+    70)          1807274  SubAL  08  5  01 03 01 01 01           F0  EH 
+    71)          1867273  SubAL  00  2  07 FF                    78  EH 
+    72)          1877286  SubAL  08  5  08 03 01 08 08           DB  EH 
+    73)          1937283  SubAL  03  2  00 FF                    FC  EH 
+    74)          1947279  SubAL  08  5  07 03 01 02 07           E3  EH 
+    75)          2007275  SubAL  00  2  00 FF                    7F  EH 
+    76)          2017283  SubAL  01  2  00 FF                    3E  EH 
+    77)          2027277  SubAL  02  2  00 FF                    BD  EH 
+    78)          2037285  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    79)          2097285  SubAL  01  2  00 FF                    3E  EH 
+    80)          2107278  SubAL  02  2  00 FF                    BD  EH 
+    81)          2117282  SubAL  03  2  00 FF                    FC  EH 
+    82)          2127275  SubAL  08  5  01 03 01 01 01           F0  EH 
+    83)          2187274  SubAL  00  2  07 FF                    78  EH 
+    84)          2197283  SubAL  08  5  08 03 01 08 08           DB  EH 
+    85)          2257285  SubAL  03  2  00 FF                    FC  EH 
+    86)          2267277  SubAL  08  5  07 03 01 02 07           E3  EH 
+    87)          2327277  SubAL  00  2  00 FF                    7F  EH 
+    88)          2337285  SubAL  01  2  00 FF                    3E  EH 
+    89)          2347282  SubAL  02  2  00 FF                    BD  EH 
+    90)          2357286  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+    91)          2417286  SubAL  01  2  00 FF                    3E  EH 
+    92)          2427279  SubAL  02  2  00 FF                    BD  EH 
+    93)          2437288  SubAL  03  2  00 FF                    FC  EH 
+    94)          2447284  SubAL  08  5  01 03 01 01 01           F0  EH 
+    95)          2507280  SubAL  00  2  07 FF                    78  EH 
+    96)          2517289  SubAL  08  5  08 03 01 08 08           DB  EH 
+    97)          2577293  SubAL  03  2  00 FF                    FC  EH 
+    98)          2587283  SubAL  08  5  07 03 01 02 07           E3  EH 
+    99)          2647286  SubAL  00  2  00 FF                    7F  EH 
+   100)          2657290  SubAL  01  2  00 FF                    3E  EH 
+   101)          2667284  SubAL  02  2  00 FF                    BD  EH 
+   102)          2677295  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+   103)          2737291  SubAL  01  2  00 FF                    3E  EH 
+   104)          2747289  SubAL  02  2  00 FF                    BD  EH 
+   105)          2757293  SubAL  03  2  00 FF                    FC  EH 
+   106)          2767286  SubAL  08  5  01 03 01 01 01           F0  EH 
+   107)          2827285  SubAL  00  2  07 FF                    78  EH 
+   108)          2837294  SubAL  08  5  08 03 01 08 08           DB  EH 
+   109)          2897295  SubAL  03  2  00 FF                    FC  EH 
+   110)          2907288  SubAL  08  5  07 03 01 02 07           E3  EH 
+   111)          2967288  SubAL  00  2  00 FF                    7F  EH 
+   112)          2977299  SubAL  01  2  00 FF                    3E  EH 
+   113)          2987289  SubAL  02  2  00 FF                    BD  EH 
+   114)          2997297  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+   115)          3057297  SubAL  01  2  00 FF                    3E  EH 
+   116)          3067290  SubAL  02  2  00 FF                    BD  EH 
+   117)          3077302  SubAL  03  2  00 FF                    FC  EH 
+   118)          3087292  SubAL  08  5  01 03 01 01 01           F0  EH 
+   119)          3146990  SubAL  00  2  07 FF                    78  EH 
+   120)          3156996  SubAL  08  5  08 03 01 08 08           DB  EH 
+   121)          3216997  SubAL  03  2  00 FF                    FC  EH 
+   122)          3226990  SubAL  08  5  07 03 01 02 07           E3  EH 
+   123)          3286989  SubAL  00  2  00 FF                    7F  EH 
+   124)          3296997  SubAL  01  2  00 FF                    3E  EH 
+   125)          3306990  SubAL  02  2  00 FF                    BD  EH 
+   126)          3316998  SubAL  08  5  0E 03 01 04 0E           D3  EH 
+   127)          3377002  SubAL  01  2  00 FF                    3E  EH 
+   128)          3386992  SubAL  02  2  00 FF                    BD  EH 
+   129)          3397000  SubAL  03  2  00 FF                    FC  EH 
+   130)          3406993  SubAL  08  5  01 03 01 01 01           F0  EH 
+   131)          3466992  SubAL  00  2  07 FF                    78  EH 
+   132)          3477005  SubAL  08  5  08 03 01 08 08           DB  EH 
+   133)          3537002  SubAL  03  2  00 FF                    FC  EH 
+   134)          3546999  SubAL  08  5  07 03 01 02 07           E3  EH 
+   135)          3606995  SubAL  00  2  00 FF                    7F  EH 
+   136)          3617002  SubAL  01  2  00 FF                    3E  EH 
+   137)          3626996  SubAL  02  2  00 FF                    BD  EH 
+   138)          3637004  SubAL  08  5  0E 03 01 04 0E           D3  EH 
